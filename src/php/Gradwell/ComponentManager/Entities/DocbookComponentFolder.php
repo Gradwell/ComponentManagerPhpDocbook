@@ -47,7 +47,7 @@ namespace Gradwell\ComponentManager\Entities;
 class DocbookComponentFolder extends ComponentFolder
 {
         const LATEST_VERSION = 1;
-        const DATA_FOLDER = '@@DATA_DIR@@/phix/php-docbook';
+        const DATA_FOLDER = '@@DATA_DIR@@/ComponentManagerPhpDocbook/php-docbook';
 
         public function createComponent()
         {
